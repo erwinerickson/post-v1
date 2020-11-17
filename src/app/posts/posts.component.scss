@@ -1,0 +1,69 @@
+$main-theme: #004d90;
+
+.main-container {
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+
+    .post-container {
+        padding-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .content-container {
+        margin-top: 20px;
+        overflow-y: auto;
+        max-height: 855px;
+
+        .table-post {
+            box-shadow: none;
+            width: 100%;
+
+            th {
+                padding: 10px;
+                background-color: #E8E8E8;
+                font-weight: 600;
+                font-size: 14px;
+            }
+
+            td {
+                padding: 10px;
+                border: solid 1px;
+            }
+
+            .actionButton {
+              text-align:center;
+              cursor: pointer;
+            }
+
+            .idClass {
+              text-align:center;
+            }
+
+        }
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: inset 0 0 2px grey;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #364b92;
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #383d92;
+  }
